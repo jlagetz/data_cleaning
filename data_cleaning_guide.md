@@ -8,7 +8,7 @@ Much of what is here is from [ProPublica's Guide to Bulletproofing Data](https:/
 too low? (For example: In voter registration data are the dates of birth too recent or too long ago?)  Note the problems, we likely can't fix them.  
 4. Is there anything blank or missing? Note the problems.  
 5. Is there information in the wrong field?  
-6. Check for consistency issues - particularly on city, state and ZIP.   There likly will be inconsistencies on names and companies, but we are not standardizing them at this point.
+6. Check for consistency issues - particularly on city, state and ZIP.   There likly will be inconsistencies on names and companies, but we are not standardizing them at this point. If  you need to clean city or state, create a new city_clean or state_clean field.
 7. Create a five-digit ZIP Code called ZIP5 if one does not exist.  
 8. Create a YEAR field from the transaction date, registration date, hire data.  
 9. For campaign donation data, make sure there is both a donor AND recipient.  
