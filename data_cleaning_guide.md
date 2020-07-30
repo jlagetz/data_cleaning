@@ -1,6 +1,6 @@
 ## Accountability data checks
 
-Much of what is here is from [ProPublica's Guide to Bulletproofing Data](https://github.com/propublica/guides/blob/master/data-bulletproofing.md) and are standard practices at NICAR.  
+Much of what is here is from [ProPublica's Guide to Bulletproofing Data](https://github.com/propublica/guides/blob/master/data-bulletproofing.md) and are standard practices among data journalists.  
 
 1. How many records are in the database? Does it seem to be in the correct range?  
 2. Check for duplicates in cases where true duplicates would be a problem. It is a problem in, say voter records. But it's possible that someone made multiple campaign contributions.  
